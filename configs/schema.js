@@ -25,8 +25,8 @@ export const CarListing=pgTable('carLisiting',{
     listingDescription:varchar('listingDescription').notNull(),
     features:json('features'),
     createdBy:varchar('createdBy').notNull(),
-    userName:varchar('userName').notNull().default('Tubeguruji'),
-    userImageUrl:varchar('userImageUrl').default('https://www.tubeguruji.com/_next/image?url=%2Flogo2.jpg&w=128&q=75'),
+    userName:varchar('userName').notNull().default('Evans'),
+    userImageUrl:varchar('userImageUrl').default(''),
     postedOn:varchar('postedOn')
 })
 
