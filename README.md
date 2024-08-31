@@ -1,8 +1,20 @@
-# React + Vite
+Full Stack Car Marketplace App
+==============================
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application serves as a marketplace for buying and selling cars, featuring a sleek user interface built with React JS and styled using Tailwind CSS. This app integrates robust backend technologies including Drizzle ORM for database interactions and Firebase for data storage. Authentication is handled securely via Clerk, and real-time chat functionality is powered by Sendbird, enhancing user interaction and engagement.
 
-Currently, two official plugins are available:
+Features
+--------
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-   **User Authentication**: Secure login and registration functionality with Clerk.
+-   **Car Listings**: Users can list cars for sale, including details like make, model, year, and price.
+-   **Real-Time Chat**: Buyers and sellers can communicate in real time using Sendbird.
+-   **Responsive Design**: Fully responsive interface, compatible with all devices and screen sizes.
+
+Technologies Used
+-----------------
+
+-   **Frontend**: React JS, Tailwind CSS
+-   **Backend**: Drizzle ORM, Firebase
+-   **Authentication**: Clerk
+-   **Real-Time Communication**: Sendbird
