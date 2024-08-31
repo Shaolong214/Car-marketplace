@@ -1,6 +1,8 @@
 Full Stack Car Marketplace App
 ==============================
 
+website: https://car-marketplace-gules.vercel.app/
+
 This application serves as a marketplace for buying and selling cars, featuring a sleek user interface built with React JS and styled using Tailwind CSS. This app integrates robust backend technologies including Drizzle ORM for database interactions and Firebase for data storage. Authentication is handled securely via Clerk, and real-time chat functionality is powered by Sendbird, enhancing user interaction and engagement.
 
 Features
